@@ -158,3 +158,49 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database files
+*.sqlite3
+
+# Static files (usually collected by 'collectstatic')
+/static/
+/staticfiles/
+
+# Media files (usually uploaded by users)
+/media/
+
+# Environment-specific settings
+.env
+*.env
+
+# Compiled Python files
+*.pyc
+
+# Docker files
+docker-compose.yml
+Dockerfile
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Compiled files and dependencies
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Local development files
+*.log
+*.sqlite3
+
+# Python virtual environment
+venv/
